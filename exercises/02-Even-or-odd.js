@@ -1,5 +1,5 @@
 // Even or odd
-//decsr: 
+//decsr: The user enters a number. Your script should check if it's even and print a corresponding message.
 
 "use strict";
 
