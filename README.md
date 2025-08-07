@@ -11,7 +11,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 
 ## 🧪 Projects:
 
--  [ ] Basic Calculator
+-  [x] Simple currency converter
 
 ## 📁 Structure:
 
