@@ -1,5 +1,6 @@
 // Search in array
-//descr: 
+//descr: You have an array of names: ["Anna", "John", "Diana", "Mike"]
+//Check if the name entered by the user exists in the array.
 
 "use strict";
 
