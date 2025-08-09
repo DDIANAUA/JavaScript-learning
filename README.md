@@ -7,6 +7,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 -  ✅ Variables, data types, type conversion, operators: arithmetic, comparison, logical
 -  ✅ Conditional statements
 -  ✅ Arrays (creation, iteration, methods: push, pop, shift, unshift, slice, splice)
+-  ✅ Objects
 -  ⬜ Loops
 
 ## 🧪 Projects:
