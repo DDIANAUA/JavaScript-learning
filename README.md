@@ -13,6 +13,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 ## 🧪 Projects:
 
 -  [x] Simple currency converter
+-  [x] Guess the nnumber
 
 ## 📁 Structure:
 
