@@ -1,3 +1,19 @@
+## 📅 Date: 2025-08-08
+
+### ✅ Topics Learned
+
+-  Objects in JavaScript.
+
+### 💻 What I mastered:
+
+-  Creating objects (using literal `{}` and `new Object()`).
+-  Accessing properties (dot notation, bracket notation).
+-  Adding, modifying, and deleting properties.
+-  Checking if a property exists using `in`.
+-  Working with nested objects.
+
+---
+
 ## 📅 Date: 2025-08-07
 
 ### ✅ Topics Learned
