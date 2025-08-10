@@ -18,10 +18,10 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 
 ## 📁 Structure:
 
--  `/topics/` — theoretical examples
+-  `/topics/` — theoretical examples (disabled)
 -  `/projects/` — practical mini-projects
 -  `/exercises/` — JS task solutions
 
-## 📆 Progress Diary:
+## 📆 Progress Diary: (disabled)
 
 See the `progress.md` or commits.
