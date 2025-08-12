@@ -15,6 +15,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 -  [x] Simple currency converter
 -  [x] Guess the number
 -  [x] Calculator
+-  [x] Notes
 
 ## 📁 Structure:
 

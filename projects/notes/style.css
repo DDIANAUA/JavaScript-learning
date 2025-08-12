@@ -1,0 +1,146 @@
+html, body{
+	font-size: 100%;
+}
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #1e1e1e;
+	color: #cfcfcf;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+button{
+	color: inherit;
+}
+/* Page===================================================== */
+.page{
+	padding: 1em 1em 2em;
+}
+.page__section-first{
+	margin-block-end: 2.3em;
+}
+.page__toDoList {
+}
+
+/* ToDo List====================================== */
+.toDoList {
+}
+.toDoList__container {
+	background: #232323;
+	border-radius: 1em;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+	padding: 2em;
+	max-width: 50em;
+	margin-inline: auto;
+}
+.toDoList__title {
+	font-size: 2.2rem;
+	margin-bottom: .7em;
+	color: rgb(214, 205, 41);
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.toDoList__first-block{
+	display: flex;
+	font-size: 1rem;
+	column-gap: 1em;
+	color: #fff;
+	margin-block-end: 1.5em;
+}
+.toDoList__input{
+	flex: 1 1 80%;
+	padding: 0.7em 1em;
+	border-radius: 0.5em;
+	border: 1px solid #444;
+	background: #181818;
+	outline: none;
+	transition: border-color 0.2s;
+	color: inherit;
+}
+.toDoList__input:focus {
+	border-color: #ffd700;
+}
+.toDoList__create-button{
+	color: inherit;
+	flex: 0 1 auto;
+	padding: 0.7em 1.5em;
+	border-radius: 0.5em;
+	background: #a25c5c;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.toDoList__create-button:hover{
+	background: #8a5050;
+}
+.toDoList__list {
+}
+.list {
+}
+.list__empty-list{
+	font-size: 1.2rem;
+	text-align: center;
+	word-spacing: 0.2em;
+}
+.list__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #292929;
+	border-radius: 8px;
+	padding: 1em;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.list__item:not(:last-child){
+	margin-bottom: 1em;
+}
+.list__name {
+	font-size: 1.5rem;
+	font-weight: 500;
+	letter-spacing: 0.0063em;
+}
+.list__name.completed{
+	text-decoration: line-through;
+}
+.list__buttons-field {
+	display: flex;
+	color: #fff;
+	column-gap: 1em;
+}
+
+.list__button--green {
+	background: #3cb371;
+	border: none;
+	border-radius: 6px;
+	padding: 0.5em 1em;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.list__button--green:hover {
+	 background: #2e8b57;
+}
+.list__button--green.list__button--green__completed{
+	background: #b3ad3c;
+}
+.list__button--green.list__button--green__completed:hover{
+	background: #88832f;
+}
+
+.list__button--red {
+    background: #e74c3c;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.list__button--red:hover {
+    background: #c0392b;
+}
