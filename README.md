@@ -16,6 +16,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 -  [x] Guess the number
 -  [x] Calculator
 -  [x] Notes
+-  [x] Clock
 
 ## 📁 Structure:
 
