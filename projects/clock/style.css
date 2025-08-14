@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+html,
+body {
+	height: 100%;
+	font-size: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #1d1d1d;
+	font-family: "Inter", sans-serif;
+	color: #fff;
+	font-weight: 400;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: 400;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.page {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page__clock {
+}
+.clock {
+}
+.clock__container {
+	max-width: 1054px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+.clock__main-block {
+	padding: 56px 81px 102px;
+	background-color: #3f3f3f;
+	border-radius: 14px;
+	text-align: center;
+}
+.clock__label {
+	font-size: 3rem;
+	margin-block-end: 45px;
+}
+.clock__time {
+	font-size: 5rem;
+	margin-block-end: 100px;
+}
+.clock__buttons {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 72px;
+}
+.clock__button {
+	font-size: 20px;
+	min-height: 73px;
+	display: flex;
+	padding-inline: 100px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	color: #121212;
+	transition: opacity 0.2s linear;
+}
+
+.clock__button:hover {
+	opacity: 0.7;
+}
+.clock__button--yellow {
+	background: #d3ca4e;
+}
+.clock__button--green {
+	background: #5dc959;
+}
+.clock__button--blue {
+	background: #4aa7c4;
+}
