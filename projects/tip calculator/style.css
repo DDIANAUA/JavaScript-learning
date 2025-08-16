@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+:root {
+	font-size: 1.3em;
+	--color-bg: #242424;
+	--color-panel: #c7c7c7;
+	--color-light: #fff;
+	--radius: 0.333em;
+}
+body {
+	padding-block-start: 2.2rem;
+	background-color: var(--color-bg);
+	font-family: "Baskervville SC";
+}
+
+a,
+button {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+[class*="__container"] {
+	max-width: 42.0833rem;
+	padding-inline: 0.625rem;
+	margin-inline: auto;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.page {
+	flex: 1 1 auto;
+}
+.page__calculate {
+}
+.calculate {
+}
+.calculate__container {
+}
+.calculate__body {
+	padding: 1.6667em 3em 2.0833em;
+	background-color: var(--color-panel);
+	border-radius: 0.5833em;
+}
+.calculate__title {
+	font-size: 2rem;
+	text-align: center;
+	line-height: 1;
+	margin-block-end: 1rem;
+}
+.calculate__input-section {
+	margin-block-end: 1.9167em;
+}
+.input-section {
+	display: flex;
+	flex-direction: column;
+}
+.input-section__order-amount {
+	margin-block-end: 1.4167em;
+}
+.input-section__title {
+	font-size: 1.5rem; /* 36px */
+	font-weight: 400;
+	margin-block-end: 0.44em;
+}
+.input-section__input {
+	font-family: "Baskervville SC";
+	font-size: 1em;
+	min-height: 2.5em;
+	padding-inline: 1em;
+	width: 100%;
+	border-radius: var(--radius);
+}
+.input-section__tip-percentage {
+	margin-bottom: 62px;
+}
+.input-section__button {
+	align-self: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem; /* 48px */
+	min-height: 1.52em;
+	border-radius: 0.16666666em;
+	text-align: center;
+	padding-inline: 2.875em;
+	cursor: pointer;
+	transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.input-section__button:hover {
+	background-color: #bdbdbd;
+	transform: scale(1.03);
+}
+.calculate__result {
+}
+.result {
+}
+.result > *:not(:first-child) {
+	background-color: var(--color-light);
+	text-align: center;
+	font-size: 1.5rem; /* 36px */
+}
+.result__title {
+	text-align: center;
+	margin-block-end: 0.94444em;
+}
+.result__tip-amount {
+	margin-block-end: 1.4167rem;
+	border-radius: var(--radius);
+	padding-block: 0.5417rem;
+}
+.result__summa {
+	border-radius: var(--radius);
+	padding-block: 0.5417rem;
+}

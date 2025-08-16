@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Baskervville%20SC:wght@400&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="/style.css" />
+		<script src="/script.js" defer></script>
+		<title>Tip Calculator</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<section class="page__calculate calculate">
+					<div class="calculate__container">
+						<div class="calculate__body">
+							<h1 class="calculate__title">Tip Calculator</h1>
+
+							<div class="calculate__input-section input-section">
+								<div class="input-section__order-amount">
+									<h3 class="input-section__title">
+										Order amount ($)
+									</h3>
+									<input
+										type="number"
+										id="input-order-amount"
+										class="input-section__input" />
+								</div>
+								<div class="input-section__tip-percentage">
+									<h3 class="input-section__title">
+										Tip percentage (%)
+									</h3>
+									<input
+										type="number"
+										id="input-tip-percentage"
+										class="input-section__input" />
+								</div>
+								<button
+									class="input-section__button"
+									type="button"
+									id="input-btn">
+									Calculate
+								</button>
+							</div>
+
+							<div class="calculate__result result">
+								<h2 class="result__title">Result</h2>
+								<div class="result__tip-amount" id="result-tip-amount">
+									Tip amount:
+								</div>
+								<div class="result__summa" id="result-summa">
+									Summa:
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
