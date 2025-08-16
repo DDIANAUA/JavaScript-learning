@@ -8,7 +8,7 @@ Hello! My name is Diana, and I am learning JavaScript from scratch
 -  ✅ Conditional statements
 -  ✅ Arrays (creation, iteration, methods: push, pop, shift, unshift, slice, splice)
 -  ✅ Objects
--  ⬜ Loops
+-  ✅ Loops
 
 ## 🧪 Projects:
 
